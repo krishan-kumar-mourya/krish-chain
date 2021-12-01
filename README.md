@@ -12,3 +12,9 @@ Some of the main highlights:
 - Sign Transactions with cryptography and digital signature.
 - Create a Transaction Pool for a real-time list of incoming data.
 - Include transactions in core blocks of the chain.
+
+Instructions:
+- Install dependencies with `npm install`
+- In one terminal run `npm start`
+- In another terminal run `HTTP_PORT=3002 P2P_PORT=5002 PEERS=ws://localhost:5001 npm start`
+- Play with API endpoints from postman collection included in repo
